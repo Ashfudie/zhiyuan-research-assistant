@@ -1,0 +1,10 @@
+test_blank_search_is_rejected (test_chunking.ChunkingTests.test_blank_search_is_rejected) ... ok
+test_invalid_encoding_has_clear_error (test_chunking.ChunkingTests.test_invalid_encoding_has_clear_error) ... ok
+test_long_text_is_split_within_limit (test_chunking.ChunkingTests.test_long_text_is_split_within_limit) ... ok
+test_markdown_headings_become_sections (test_chunking.ChunkingTests.test_markdown_headings_become_sections) ... ok
+test_utf8_text_is_supported (test_chunking.ChunkingTests.test_utf8_text_is_supported) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK

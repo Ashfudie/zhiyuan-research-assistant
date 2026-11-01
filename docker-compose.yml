@@ -1,0 +1,14 @@
+services:
+  seekdb:
+    image: oceanbase/seekdb:latest
+    container_name: zhiyuan-seekdb
+    ports:
+      - "2881:2881"
+    environment:
+      SEEKDB_DATABASE: test
+    volumes:
+      - seekdb-data:/var/lib/seekdb
+    restart: unless-stopped
+
+volumes:
+  seekdb-data:

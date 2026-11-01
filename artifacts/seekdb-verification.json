@@ -1,0 +1,33 @@
+{
+  "status": "passed",
+  "engine": "seekdb",
+  "mode": "embedded",
+  "embedding_model": "BAAI/bge-small-zh-v1.5",
+  "documents": 4,
+  "chunks": 20,
+  "checks": [
+    {
+      "name": "向量+全文混合检索",
+      "query": "混合检索",
+      "results": 5,
+      "first_source": "混合检索研究笔记.md"
+    },
+    {
+      "name": "跨措辞语义检索",
+      "query": "怎样减少数据库磁盘读写",
+      "results": 5,
+      "first_source": "混合检索研究笔记.md"
+    },
+    {
+      "name": "元数据结构化过滤",
+      "query": "HNSW",
+      "category": "实验记录",
+      "results": 5
+    },
+    {
+      "name": "原文溯源",
+      "document": "混合检索研究笔记",
+      "matched_chunks": 5
+    }
+  ]
+}
